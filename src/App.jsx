@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import { Route, Routes } from 'react-router-dom'
 import Destinations from './pages/Destinations'
 import Footer from './components/Footer'
+import Beaches from './pages/Beaches'
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
    <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/destinations' element={<Destinations/>}/>
+    <Route path='/destinations' element={<Destinations/>}/>
+    <Route path='/beaches' element={<Beaches/>}/>
+
    </Routes>
    <Footer/>
     </div>
