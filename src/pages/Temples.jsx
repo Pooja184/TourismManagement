@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../images/trekking/hero.jpg";
+import hero from "../images/temples/hero.jpg";
 import HeroComponent from "../components/HeroComponent";
 import DestinationsCard from "../components/DestinationsCard";
 import img9 from "../images/trekking/img7.jpg";
@@ -16,9 +16,9 @@ const Temples = () => {
   return (
     <div className="bg-[#F5EFE6]">
       <HeroComponent
-        heading={"Adventure Treks in Ratnagiri"}
+        heading={"Famous Temples to Visit in Ratnagiri"}
         description={
-          "Discover thrilling trekking trails in Ratnagiri, from historic forts to scenic hills. Perfect for nature lovers, history buffs, and adventure seekers."
+          "Explore Ratnagiri’s ancient temples known for their cultural heritage, beautiful architecture, and spiritual ambiance."
         }
         backgroundImage={hero}
       />
