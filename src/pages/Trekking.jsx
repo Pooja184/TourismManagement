@@ -1,5 +1,4 @@
 import React from "react";
-import purnagadBeach from "../images/beaches/purnagadBeach.jpg";
 import hero from "../images/trekking/hero.jpg";
 import HeroComponent from "../components/HeroComponent";
 import DestinationsCard from "../components/DestinationsCard";
