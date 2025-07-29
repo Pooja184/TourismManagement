@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Destinations from './pages/Destinations'
 import Footer from './components/Footer'
 import Beaches from './pages/Beaches'
+import Trekking from './pages/Trekking'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Route path='/destinations' element={<Destinations/>}/>
     <Route path='/destinations' element={<Destinations/>}/>
     <Route path='/beaches' element={<Beaches/>}/>
+    <Route path='/trekking' element={<Trekking/>}/>
 
    </Routes>
    <Footer/>
