@@ -10,7 +10,7 @@ const categories = [
   { title: 'Beaches', icon: <FaUmbrellaBeach />, bgColor: 'bg-teal-600', path: '/beaches' },
   { title: 'Trekking', icon: <FaHiking />, bgColor: 'bg-green-600', path: '/trekking' },
   { title: 'Temples', icon: <GiTempleGate />, bgColor: 'bg-orange-600', path: '/temples' },
-  { title: 'Mountains', icon: <FaMountain />, bgColor: 'bg-purple-600', path: '/mountains' },
+  // { title: 'Mountains', icon: <FaMountain />, bgColor: 'bg-purple-600', path: '/mountains' },
   { title: 'Waterfalls', icon: <FaWater />, bgColor: 'bg-blue-600', path: '/waterfalls' },
 ];
 
@@ -23,7 +23,7 @@ const ExperienceCategories = () => {
         subtitle="Find your next adventure by choosing a category that fits your interest."
       />
 
-       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mt-8 md:mt-14">
+       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-8 md:mt-14">
         {categories.map((item, index) => (
           <Link to={item.path} key={index}>
             <ExperienceCard
