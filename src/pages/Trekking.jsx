@@ -22,7 +22,7 @@ const Trekking = () => {
         }
         backgroundImage={hero}
       />
-      <div className=" m-8 md:m-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className=" p-8 md:p-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <DestinationsCard
           image={img1} // import the image at the top
           title="Jaigad Fort Trek"

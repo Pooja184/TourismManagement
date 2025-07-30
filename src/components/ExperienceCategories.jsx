@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from './Button';
 
 import { FaUmbrellaBeach, FaHiking, FaMountain, FaWater } from "react-icons/fa";
 import { GiTempleGate } from "react-icons/gi";
@@ -34,6 +35,11 @@ const ExperienceCategories = () => {
           </Link>
         ))}
       </div>
+        <div className="text-center mt-16 md:mt-10">
+        <Button to="/book">Book Tour</Button>
+      
+      </div>
+      
     </section>
   );
 };
