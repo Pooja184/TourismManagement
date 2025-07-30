@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Beaches from './pages/Beaches'
 import Trekking from './pages/Trekking'
 import Temples from './pages/Temples'
+import Waterfalls from './pages/Waterfalls'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
     <Route path='/beaches' element={<Beaches/>}/>
     <Route path='/trekking' element={<Trekking/>}/>
     <Route path='/temples' element={<Temples/>}/>
+    <Route path='/waterfalls' element={<Waterfalls/>}/>
 
    </Routes>
    <Footer/>
